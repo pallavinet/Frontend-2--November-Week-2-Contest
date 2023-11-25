@@ -1,0 +1,268 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+    font-family: 'Poppins', sans-serif;
+}
+.whole-body{
+    align-content: center;
+    margin-left: 400px;
+    margin-left: 4000px;
+}
+ul li{
+    display: inline-block; 
+    padding: 0px 15px;
+}
+
+ul li a{
+    text-decoration: none;
+    color: rgb(76, 72, 72);
+    
+}
+.head{
+    display: flex;
+    justify-content: space-around;
+    box-shadow: 0px 4px 4px rgb(243, 243, 243);
+}
+.logo{
+    color: grey;
+    /* height: 1px; */
+    /* padding-left: 10px; */
+    
+}
+
+.left{
+    gap: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.right{
+   color: gray;
+   display: flex;
+   margin-top: 5px;
+    list-style: none;
+    text-decoration: none;
+    align-items: center;
+    gap: 30px;
+
+}
+
+.right li a{
+    display: flex;
+    gap: 7px;
+    list-style: none;
+    text-decoration: none;
+}
+.text{
+    margin-top: 3px;
+}
+.imgs1{
+    width: 200vh;
+}
+.promo{
+position: relative;
+text-align: center;
+}
+.promo-text{
+    color: white;
+    font-size: 32px;
+position: absolute;
+top: 20%;
+left: 5%;
+}
+
+
+/* below head */
+/* <!-- ==========================section 2=======================  --> */
+.s2{
+    padding: 50px;
+}
+
+.searchbar{
+    display: flex;
+    padding: 0;
+}
+.search{
+    font-size: 25px;
+    width: 190vh;
+    padding: 10px;
+   background-color: rgb(231, 230, 230);
+}
+.searchbtn{
+    /* margin-bottom: -9px; */
+    border: none;
+    
+}
+.below-head{
+    width: 100%;
+    padding: 20px 20px; 
+     display: inline-block;
+    
+}
+.head-left{
+    display: block;
+    float: left;
+    font-size: 1.2rem;
+}
+.rating{
+   display: block;
+    
+}
+.fil{
+    background-color: pink;
+    color: white;
+    margin: 10px;
+    width: 250px;
+    /* height: 70px; */
+    padding: 20px;
+    align-content: center;
+}
+#fil1{
+background-color: rgb(234, 183, 88);
+}
+#fil2{
+background-color: rgb(126, 201, 13);
+}
+#fil3{
+background-color: rgb(197, 11, 11);
+}
+
+
+
+/*========================= main ================*/
+
+#wrapper{
+    margin-left: -25px;
+    padding-right: 15px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    justify-content: center;
+    grid-gap: 0.2rem;
+    margin-bottom: 50px;
+    
+    
+}
+#cato{
+   
+    display: flex;    
+    margin-left: -15px;
+text-size-adjust: 10px;
+color: grey;
+}
+.title{
+    display: flex; 
+    padding: 0;
+    margin: 0;
+    justify-content: space-between;
+}
+#star{
+    
+    align-content: space-around;
+   color: white;
+   height: 0px;
+   
+}
+#rating{
+    align-content: space-between;
+    color: grey;
+    padding: 0px;
+    padding-top: 0;
+    bottom: 0;
+   
+}
+.imgs{
+    /* margin-left: 50px;  */
+    align-content: center;
+    height: 130px;
+    width: 320px;
+    margin-top: 90px;
+    margin-bottom: 15px;
+}
+
+.food{
+    /* display: inline-block;  */
+    
+   margin-left: 50px;
+    align-content: center;
+}
+.food ul{
+   
+    box-shadow: 0px 2px rgb(226, 225, 225);
+    /* display: inline-block; */
+   
+}
+.food ul {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    
+}
+#orange{
+    color: rgb(255, 111, 0);
+    text-decoration: none;
+    list-style: none;
+
+}
+
+
+
+/*============================== foot============================= */
+.footer{
+    display: flex;
+    padding: 40px;
+
+}
+
+.fc li a{
+    
+    display: inline-block;
+    text-decoration: none;
+    list-style: none;
+    /* color: ; */
+    width: 200px;
+    /* justify-content: space-between; */
+    /* padding-top: 20px; */
+    margin-top: 20px;
+    /* flex-flow: row-wrap; */
+}
+.fr li a:hover{
+    color: gray;
+    padding-left: 10px;
+}
+.fr li a img:hover{
+    color: gray;
+    /* padding-left: 10px; */
+}
+.fr{
+    display: flex;
+    /* margin-left: 50px; */
+}
+.fc{
+
+/* justify-content: space-between; */
+padding-left: 100px;
+padding-top: 100px;
+text-decoration: none;
+list-style: none;
+}
+
+
+.store li img{
+   display: flex;
+   float: right;
+   
+   margin-left: 100px;
+   
+   
+    
+   
+}
+#green{
+    background-color: green;
+    color: white;
+    padding: 10px;
+}
+
+
+
